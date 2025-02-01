@@ -1,0 +1,1 @@
+This repository demonstrates a race condition in a simple counter implemented in Java.  Two threads increment a shared counter variable concurrently without proper synchronization. The resulting count may be lower than expected because of lost updates during the race condition. The solution involves using the synchronized keyword to make the increment method atomic.
